@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Chtabs'
-SITENAME = 'Chtabs'
-SITEURL = 'chtabs.tk'
+AUTHOR = 'chtabs'
+SITENAME = 'chtabs'
+SITEURL = ''
 
 PATH = 'content'
 
