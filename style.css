@@ -51,7 +51,7 @@ body {
    }
    #sidebar {
     margin-top: 10px; 
-    width: 110px;
+    min-width: 110px;
     padding: 0 10px;
     float: left;
    }
