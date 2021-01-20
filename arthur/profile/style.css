@@ -24,6 +24,14 @@ body {
     color: #aba144;
     margin-top: 0;
    }
+   h3 {
+    color: #aba144;
+    margin-top: 0;
+   }
+   h4 {
+    color: #aba144;
+    margin-top: 0;
+   }
    #container {
     border-top: 1px solid #899281;
 	 border-left: 1px solid #899281;
@@ -51,7 +59,7 @@ body {
     border-top: 1px solid #899281;
 	 border-left: 1px solid #899281;
 	 border-right: 1px solid #292d23;
-
+	 min-height: 580px;
     margin-left: 150px;
     padding: 10px;
     background: #3f4b37;
