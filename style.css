@@ -51,7 +51,7 @@ body {
    }
    #sidebar {
     margin-top: 10px; 
-    min-width: 110px;
+    min-width: 9vh;
     padding: 0 10px;
     float: left;
    }
@@ -59,7 +59,8 @@ body {
     border-top: 1px solid #899281;
 	 border-left: 1px solid #899281;
 	 border-right: 1px solid #292d23;
-	 min-height: 580px;
+	 height: 83hv;
+	 max-height: 100%;
     margin-left: 150px;
     padding: 10px;
     background: #3f4b37;
