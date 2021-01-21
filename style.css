@@ -6,11 +6,17 @@
  margin-left: 220px;
 }
 
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #ced9d3;
+}
+
 body {
     background: #333B2C ;
    }
    p {	
-    color: #fff;
+    color: #ced9d3;
    }
    a {
     color: #CBBA43;
@@ -19,25 +25,29 @@ body {
     color: #E4CD2D;
     text-decoration: underline;
    }
+   h1 {
+    color: #d8ded3;
+    margin-top: 0;
+   }
    h2 {
     font-size: 1.1em;
-    color: #aba144;
+    color: #d8ded3;
     margin-top: 0;
    }
    h3 {
-    color: #aba144;
+    color: #d8ded3;
     margin-top: 0;
    }
    h4 {
-    color: #aba144;
+    color: #d8ded3;
     margin-top: 0;
    }
    h5 {
-    color: #aba144;
+    color: #d8ded3;
     margin-top: 0;
    }
    h6 {
-    color: #aba144;
+    color: #d8ded3;
     margin-top: 0;
    }
    #container {
