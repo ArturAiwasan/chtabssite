@@ -12,6 +12,22 @@ pre {
     color: #ced9d3;
 }
 
+   #translokigo {
+    width: 100%;
+    border-top: 1px solid #899281;
+	 border-left: 1px solid #899281;
+	 border-right: 1px solid #292d23;
+	 color: #ced9d3;
+   }
+   td {
+    border-top: 1px solid #899281;
+	 border-left: 1px solid #899281;
+	 border-right: 1px solid #292d23;
+    vertical-align: top;
+	 color: #ced9d3;
+   }
+
+   
 body {
     background: #333B2C ;
    }
