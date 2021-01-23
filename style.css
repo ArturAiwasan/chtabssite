@@ -12,6 +12,15 @@ pre {
     color: #ced9d3;
 }
 
+   .thumb img  {
+    border: 2px solid #899281;
+    padding: 2px;
+    background: #666;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+   }
+
    #translokigo {
     width: 100%;
     border-top: 1px solid #899281;
