@@ -12,6 +12,12 @@ pre {
     color: #ced9d3;
 }
 
+	.photolinki {
+	 width: 100%;
+	 letter-spacing: 5px;
+	 text-align: center;
+}
+
    .thumb img  {
     border: 2px solid #899281;
     padding: 2px;
