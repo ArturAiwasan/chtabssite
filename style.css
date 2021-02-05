@@ -96,14 +96,14 @@ body {
 	 border-left: 1px solid #899281;
 	 border-right: 1px solid #292d23;
     font-size: 2.2em;
-    text-align: center;
+    text-align: left;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.58);
     padding: 5px;
     background: #495a3e;
     color: #fff;
    }
    #sidebar {
-    margin-top: 10px; 
+    margin-top: 10px;
     min-width: 9vh;
     padding: 0 10px;
     float: left;
