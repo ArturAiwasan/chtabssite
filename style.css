@@ -12,6 +12,13 @@ pre {
     color: #ced9d3;
 }
 
+   .line { 
+    border-left: 4px solid #CBBA43; 
+	 border-left-style: double;    
+    margin-left: 10px;
+    padding-left: 10px;
+   }
+
 	.photolinki {
 	 width: 100%;
 	 letter-spacing: 5px;
