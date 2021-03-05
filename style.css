@@ -12,6 +12,10 @@
         width: 100%;
         height: 100%;
     }
+    .thumb img {
+		width: 40%;
+		height: 40%;    
+    }
 }
 
 pre {
@@ -39,8 +43,13 @@ pre {
     background: #666;
     margin-right: 10px;
     margin-bottom: 10px;
-    
    }
+   .thumb a {
+	border: 2px solid #899281;
+	padding: 2px;
+	background: #000;
+	display: block;
+   } 
 
    #translokigo {
     width: 100%;
