@@ -136,6 +136,10 @@ body {
     color: #fff;
    }
    #sidebar {
+	border-top: 1px solid #899281;
+	 border-left: 1px solid #899281;
+	 border-right: 1px solid #292d23;
+	 border-bottom: 1px solid #292d28;
     margin-top: 10px; 
     padding: 10px;
     min-width: 80px;
@@ -146,7 +150,7 @@ body {
 	 border-left: 1px solid #899281;
 	 border-right: 1px solid #292d23;
 	 min-height: 580px;
-    margin-left: 150px;
+    margin-left: 160px;
     padding: 10px;
     background: #3f4b37;
    }
