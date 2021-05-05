@@ -56,24 +56,24 @@
     <h3>Здесь будут описаны незадокументированные и другие интересные, но удобные детали для INSTEAD игры</h3>
     <br>
     <h4>Содержание|Enhavo</h4>
-    <li><a href="#1">[1] Отключение title во всех комнатах/Elŝaltu title en ĉiuj ĉambroj</a></li>
-    <li><a href="#2">[2] Сокращение названий классов и др./Mallongigitaj nomoj en klasoj</a></li>
-    <li><a href="#3">[3] {@ walk %chambronomo%|Plue/Далее}</a></li>
-    <li><a href="#4">[4] Префикс фраз/Prefikso frazoj</a></li>
+    <li><a href="#1p">[1] Отключение title во всех комнатах/Elŝaltu title en ĉiuj ĉambroj</a></li>
+    <li><a href="#2p">[2] Сокращение названий классов и др./Mallongigitaj nomoj en klasoj</a></li>
+    <li><a href="#3p">[3] {@ walk %chambronomo%|Plue/Далее}</a></li>
+    <li><a href="#4p">[4] Префикс фраз/Prefikso frazoj</a></li>
     <hr>
-    <h5><a name="#1">[1] Отключение title во всех комнатах/Elŝaltu title en ĉiuj ĉambroj</a></h5>
+    <h5 id="1p"> [1] Отключение title во всех комнатах/Elŝaltu title en ĉiuj ĉambroj</h5>
     <br>Пишем в файле main3.lua | Ni skribas en main3.lua: <br><br>instead.notitle = true;
     <hr>
-    <h5><a name="#2">[2] Сокращение названий классов и др./Mallongigitaj nomoj en klasoj</a></h5>
+    <h5 id="2p"> [2] Сокращение названий классов и др./Mallongigitaj nomoj en klasoj</h5>
     <br>Пишем в файле main3.lua | Ni skribas en main3.lua kaj alia~: <br><br> R = room;<br>O = obj;<br>ctscn = cutscene;<br>
     <br><br>Например/Ekzemple:<br><br>R = room;<br>O = obj;<br><br>R {<br>nam = 'main';<br>title = '***';<br>dsc = 'Sceno priskribo';<br>}<br><br>И/Kaj:<br><br>O {<br>nam = 'pomo';<br>disp = 'Яблоко/Pomo';<br>inv = 'Ruĝa pomo/Красное яблоко.';<br>}<br>
     <hr>
-    <h5><a name="#3">[3] {@ walk %chambronomo%|Plue/Далее}</a></h5>
+    <h5 id="3p"> [3] {@ walk %chambronomo%|Plue/Далее}</h5>
     <br>Пишем в файле main3.lua | Ni skribas en main3.lua: <br><br>xact.walk=walk;
     <br><br><a href="arobot1.png"><img src="arobot1_thumbnail.jpeg" width="300" height="83">В игре/En ludo</a>
     <a href="arobot2.png"><img src="arobot2_thumbnail.jpeg" width="300" height="148">Код/Kodo</a>
     <hr>
-    <h5><a name="#4">[4] Префикс фраз/Prefikso frazoj</a></h5>
+    <h5 id="4p"> [4] Префикс фраз/Prefikso frazoj</h5>
     <br>Пишем в файле main3.lua | Ni skribas en main3.lua: <br><br>std.phrase_prefix = '>';
     <br><br>Вывод/Eligo:<br><br><a href="arobot3.png"><img src="arobot3_thumbnail.jpeg" width="300" height="118"></a>
     <hr>
