@@ -1,0 +1,11 @@
+body {
+	background-image: url("star.gif");
+	color: #FFFFFF;
+}
+	a {
+    color: #CBBA43;
+   };
+   a:hover {
+    color: #E4CD2D;
+    text-decoration: underline;
+   };
